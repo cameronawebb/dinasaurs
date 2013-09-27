@@ -1,0 +1,14 @@
+----
+layout: default
+----
+
+<h1>Dinosaur</h1>
+<p>Dinosaurs are super rockin'!</p>
+
+<h2>Carnivores</h2>
+<ul>
+	{%for dino in site.pages %}
+    	<li>{{dino.name}}</li>
+	{% endfor %}     
+</ul>
+
