@@ -1,0 +1,9 @@
+# redcarpet is a markdown processor
+# it's the thing that converts markdown to HTML
+# GitHub uses Redcarpet for conversion so we want to remain consistent
+
+
+markdown: red carpet
+# the folder pur website is hosted in
+# everything that comes after http://cameronawebb.github.io
+baseurl: /dinosaurs
